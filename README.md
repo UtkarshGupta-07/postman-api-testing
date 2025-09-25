@@ -1,6 +1,6 @@
-This project aims to build a simple backend system using Node.js and Express.js that manages pizza items in a store.
+The application demonstrates CRUD (Create, Read, Update, Delete) operations on pizza items stored in memory. The system allows adding new pizzas, viewing available pizzas, updating pizza details, and deleting pizzas. The application is tested using Postman, a widely used API testing tool. It is made using front end(JavaScript) and backend(Node.js) technologies.
 
- Objectives:-
+ OBJECTIVES:-
  
 >To build a backend system using Express.js.
 
@@ -10,5 +10,6 @@ This project aims to build a simple backend system using Node.js and Express.js 
 
 >To understand the workflow of a typical backend system.
 
+SCOPE:-
 
 The project is limited to in-memory data storage. It demonstrates backend concepts but can be extended to databases, authentication, and real-world deployment in the future.
