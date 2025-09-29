@@ -1,10 +1,10 @@
-Pizza Store API
+/*Pizza Store API*/
 
 The application demonstrates CRUD (Create, Read, Update, Delete) operations on pizza items stored in memory. The system allows adding new pizzas, viewing available pizzas, updating pizza details, and deleting pizzas. The application is tested using Postman, a widely used API testing tool. It is made using front end(JavaScript) and backend(Node.js) technologies.
 
  OBJECTIVES:-
  
->To build a backend system using Mode.js.
+>To build a backend system using Node.js.
 
 >To perform CRUD operations on pizza items.
 
@@ -15,13 +15,13 @@ The application demonstrates CRUD (Create, Read, Update, Delete) operations on p
 
  API ENDPOINTS:-
 
-| Method | Endpoint     | Description         |
-| ------ | ------------ | ------------------- |
-| POST   | `/items`     | Add a new item      |
-| GET    | `/items`     | Retrieve all items  |
-| GET    | `/items/:id` | Retrieve item by ID |
-| PUT    | `/items/:id` | Update item         |
-| DELETE | `/items/:id` | Delete item         |
+| Method | Endpoint     | Description             |
+| ------ | ------------ | ----------------------- |
+| POST   | `/items`     | Add a new item          |
+| GET    | `/items`     | Retrieve all items      |
+| GET    | `/items/:id` | Retrieve an item by ID  |
+| PUT    | `/items/:id` | Update an  item         |
+| DELETE | `/items/:id` | Delete an item          |
 
 **Example Request (POST /items)**
 
@@ -38,7 +38,7 @@ POSTMAN TESTING:-
 
 ##Import Postman Collection
 
-* Import `pizza-store-api.postman_collection.json` from this repo into Postman.
+* Import `Pizza Store API.postman_collection.json` from this repo into Postman.
 
 
 REPOSITORY STRUCTURE:-
@@ -47,7 +47,7 @@ REPOSITORY STRUCTURE:-
 postman-api-testing/
  ├── /server.js                 # backend code
  ├── docs/screenshots/    # Postman screenshots
- ├── pizza-store-api.postman_collection.json
+ ├── Pizza Store API.postman_collection.json
  └── README.md
 ```
 
