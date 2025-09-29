@@ -45,7 +45,7 @@ REPOSITORY STRUCTURE:-
 
 ```
 postman-api-testing/
- ├── /server.js                 # backend code
+ ├── server.js /               # backend code
  ├── docs/screenshots/    # Postman screenshots
  ├── Pizza Store API.postman_collection.json
  └── README.md
